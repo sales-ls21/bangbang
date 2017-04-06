@@ -1,0 +1,28 @@
+/* YOUR CUSTOM STYLES */
+.list-group-item.active {
+    background-color: #fea526;
+    border-color:#fea526
+}
+
+.list-group-item:not(.active) {
+    color:#1D1E23;
+}
+
+.list-group-item:not(.active):hover {
+    color:#fea526;
+}
+
+.btn, .btn-default:hover{
+background-color: #fea526!important;
+}
+
+.brands{
+	height: auto;
+	background-color: #fea526!important;
+	margin-top: 1rem;
+	padding: 1rem;
+}
+
+#designer:hover{
+	color: #fea526;
+}
