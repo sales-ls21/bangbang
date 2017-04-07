@@ -13,6 +13,9 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Diplomata+SC|Orbitron" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -26,13 +29,16 @@
     <style rel="stylesheet">
         /* TEMPLATE STYLES */
         body{
-            font-family: Lato, sans-serif;
+            font-family: Orbitron, sans-serif;
             background-color: #E5E4E2;
         }
         main {
             padding-top: 3rem;
         }
         
+        p{
+            font-family: Lato, sans-serif;
+        }
         .topline{
             background-color: #1D1E23;
             color: #fff;
@@ -108,9 +114,16 @@
 
         <!--Main layout-->
         <div class="topline">
-            <div class="col-md-8 offset-lg-2">
-            <h5>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</h5><br>
-            <h2>BROWSE OUR GUN AND AMMO INVENTORY <a href="http://www.bangbangguns.com"> HERE</a></h2>
+            <div class="col-md-9">
+                <div class="col-md-10 offset-lg-3" itemscope="http://schema.org/LocalBusiness">
+                    <p itemprop="description">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p><br>
+                </div>
+                <div class="col-md-12 offset-lg-3">
+                    <h2>BROWSE OUR GUN AND AMMO INVENTORY</h2>
+                </div> 
+                <div class="col-md-4 offset-lg-7">
+                    <h2><a href="http://www.bangbangguns.com"> HERE</a></h2>
+                </div>
             </div>
         </div>
         <div class="container">
@@ -119,139 +132,139 @@
                 <div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">
 
                     <div class="widget-wrapper">
-                        <div class="list-group">
+                        <div class="list-group" itemscope="http://schema.org/Product">
                             <a href="#" class="list-group-item active"><i class="fa fa-align-justify" title="Align Justify"></i>  CATEGORIES</a>
                             <li class="nav-item dropdown btn-group">
-                            <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ammunition</a>
-                            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1">
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.rifle-ammunition">Rifle</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/cataloghandgun-ammunition.">Handgun</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.shotgun-ammunition">Shotgun</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.rimfire-ammunition">Rimfire</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.promo-ammunition">Bulk Ammo</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.slugs-ammunition">Slugs</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.blanks">Blanks</a>
+                            <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" itemprop="name">Ammunition</a>
+                            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1" itemscope="http://schema.org/Product">
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.rifle-ammunition" itemprop="name">Rifle</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/cataloghandgun-ammunition." itemprop="name">Handgun</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.shotgun-ammunition" itemprop="name">Shotgun</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.rimfire-ammunition" itemprop="name">Rimfire</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.promo-ammunition" itemprop="name">Bulk Ammo</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.slugs-ammunition" itemprop="name">Slugs</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.blanks" itemprop="name">Blanks</a>
                             </div>
                             </li>
                             <li class="nav-item dropdown btn-group">
                             <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Handguns</a>
-                            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1">
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.revolvers">Revolvers</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.semi-automatic-handguns">Semi-Automatic</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.lever-action-handguns">Lever Action</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.derringers">Derringer</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.single-shot-handguns">Single Shot</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.black-powder.handguns">Black Powder</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.other-handguns">Other</a>
+                            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1" itemscope="http://schema.org/Product">
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.revolvers" itemprop="name">Revolvers</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.semi-automatic-handguns" itemprop="name">Semi-Automatic</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.lever-action-handguns" itemprop="name">Lever Action</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.derringers" itemprop="name">Derringer</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.single-shot-handguns" itemprop="name">Single Shot</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.black-powder.handguns" itemprop="name">Black Powder</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.other-handguns" itemprop="name">Other</a>
                             </div>
                             </li> 
                             <li class="nav-item dropdown btn-group">
                             <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rifles</a>
-                            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1">
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.semi-automatic-rifles">Semi-Automatic</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.bolt-action-rifles">Bolt Action</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.lever-action-rifles">Lever Action</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.pump-action-rifles">Pump Action</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.combo-rifles">Combos</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.single-shot-rifles">Single Shot</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.lower-receivers">Lower & Bolt Action Receivers</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.black-powder-rifles">Black Powder</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.revolver-rifles">Revolver</a>
+                            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1" itemscope="http://schema.org/Product">
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.semi-automatic-rifles" itemprop="name">Semi-Automatic</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.bolt-action-rifles" itemprop="name">Bolt Action</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.lever-action-rifles" itemprop="name">Lever Action</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.pump-action-rifles" itemprop="name">Pump Action</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.combo-rifles" itemprop="name">Combos</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.single-shot-rifles" itemprop="name">Single Shot</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.lower-receivers" itemprop="name">Lower & Bolt Action Receivers</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.black-powder-rifles" itemprop="name">Black Powder</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.revolver-rifles" itemprop="name">Revolver</a>
                             </div>
                             </li> 
                             <li class="nav-item dropdown btn-group">
                             <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shotguns</a>
-                            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1">
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.pump-action-shotguns">Pump Action</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.lever-action-shotguns">Lever Action</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.single-shot-shotguns">Single Shot</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.semi-automatic-shotguns">Semi-Automatic</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.over-under-shotguns">Over-Under</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.side-by-side-shotguns">Side by Side</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.bolt-action-shotguns">Bolt-Action</a>
+                            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1" itemscope="http://schema.org/Product">
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.pump-action-shotguns" itemprop="name">Pump Action</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.lever-action-shotguns" itemprop="name">Lever Action</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.single-shot-shotguns" itemprop="name">Single Shot</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.semi-automatic-shotguns" itemprop="name">Semi-Automatic</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.over-under-shotguns" itemprop="name">Over-Under</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.side-by-side-shotguns" itemprop="name">Side by Side</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.bolt-action-shotguns" itemprop="name">Bolt-Action</a>
                                 
                             </div>
                             </li>
                             <li class="nav-item dropdown btn-group">
-                            <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Knives</a>
+                            <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" itemscope="http://schema.org/Product">Knives</a>
                             <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1">
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.fixed-blade-knives">Fixed Blade</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.folding-knives">Folding</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.knife-accessories">Knife Accessories</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.utility-knives">Utility</a>   
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.fixed-blade-knives" itemprop="name">Fixed Blade</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.folding-knives" itemprop="name">Folding</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.knife-accessories" itemprop="name">Knife Accessories</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.utility-knives" itemprop="name">Utility</a>   
                             </div>
                             </li>
                             <li class="nav-item dropdown btn-group">
                             <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Magazines</a>
-                            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1">
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.high-capacity-magazines">High Capacity</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.standard-magazines">Standard</a>
+                            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1" itemscope="http://schema.org/Product">
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.high-capacity-magazines" itemprop="name">High Capacity</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.standard-magazines" itemprop="name">Standard</a>
                             </div>
                             </li> 
                             <li class="nav-item dropdown btn-group">
-                            <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Optics</a>
+                            <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" itemscope="http://schema.org/Product">Optics</a>
                             <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1">
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.binoculars">Binoculars</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.flashlights-batteries">Flashlights/Batteries</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.night-vision">Night Vision</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.optical-accessories">Optical Accessories</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.rangefinder">Range Finders</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.scope-mounts">Scope Mounts</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.binoculars" itemprop="name">Binoculars</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.flashlights-batteries" itemprop="name">Flashlights/Batteries</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.night-vision" itemprop="name">Night Vision</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.optical-accessories" itemprop="name">Optical Accessories</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.rangefinder" itemprop="name">Range Finders</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.scope-mounts" itemprop="name">Scope Mounts</a>
                                 <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.scopes">Scopes</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.sights-lasers-lights">Sights/Lasers/Lights</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.spotting-scopes">Spotting Scopes</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.thermal-optics">Thermal Optics</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.sights-lasers-lights" itemprop="name">Sights/Lasers/Lights</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.spotting-scopes" itemprop="name">Spotting Scopes</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.thermal-optics" itemprop="name">Thermal Optics</a>
                             </div>
                             </li> 
                             <li class="nav-item dropdown btn-group">
                             <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Parts and Gear</a>
-                            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1">
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.accessories">Accessories</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.airguns">Air Guns & Slingshots</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.barrels-choke-tubes">Barrels/Choke Tubes</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.books-software">Books/Software</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.cleaning-equipment">Cleaning Equipment</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.clothing">Clothing</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.upper-conversion-kits-high-capacity">Conversion Kits</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.decoys">Decoys</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.electronics">Electronics</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.game-calls">Game Calls</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.grips-pads-stocks">Grips/Pads/Stocks</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.hard-gun-cases">Hard Gun Cases</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.holsters">Holsters</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.non-lethal-defense">Non lethal Defense</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.parts-gear">Parts</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.pistol-cases">Pistol Cases</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.racks-storage">Racks</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.reloading-equipment">Reloading Equipment</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.safes-security">Safes/Security</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.safety-protection">Safety/Protection</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.scent-cover">Scent Cover</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.slings-swivels">Slings/Swivels</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.soft-gun-cases">Soft Gun Cases</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.steel-targets">Steel Targets</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.survival-food">Survival Supplies</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.targets">Targets</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.tools">Tools</a>
-                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.upper-receivers-conversion-kit">Upper Receivers</a> 
+                            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1" itemscope="http://schema.org/Product">
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.accessories" itemprop="category">Accessories</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.airguns" itemprop="category">Air Guns & Slingshots</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.barrels-choke-tubes" itemprop="category">Barrels/Choke Tubes</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.books-software" itemprop="category">Books/Software</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.cleaning-equipment" itemprop="category">Cleaning Equipment</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.clothing" itemprop="category">Clothing</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.upper-conversion-kits-high-capacity" itemprop="category">Conversion Kits</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.decoys" itemprop="category">Decoys</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.electronics" itemprop="category">Electronics</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.game-calls" itemprop="category">Game Calls</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.grips-pads-stocks" itemprop="category">Grips/Pads/Stocks</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.hard-gun-cases" itemprop="category">Hard Gun Cases</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.holsters" itemprop="category">Holsters</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.non-lethal-defense" itemprop="category">Non lethal Defense</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.parts-gear" itemprop="category">Parts</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.pistol-cases" itemprop="category">Pistol Cases</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.racks-storage" itemprop="category">Racks</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.reloading-equipment" itemprop="category">Reloading Equipment</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.safes-security" itemprop="category">Safes/Security</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.safety-protection" itemprop="category">Safety/Protection</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.scent-cover" itemprop="category">Scent Cover</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.slings-swivels" itemprop="category">Slings/Swivels</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.soft-gun-cases" itemprop="category">Soft Gun Cases</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.steel-targets" itemprop="category">Steel Targets</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.survival-food" itemprop="category">Survival Supplies</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.targets" itemprop="category">Targets</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.tools" itemprop="category">Tools</a>
+                                <a class="dropdown-item" href="http://www.bangbangguns.com/catalog.upper-receivers-conversion-kit" itemprop="category">Upper Receivers</a> 
                             </div>
                             </li>
 
                         </div>
                     </div>
 
-                    <div class="widget-wrapper wow fadeIn" data-wow-delay="0.6s">
+                    <div class="widget-wrapper wow fadeIn" data-wow-delay="0.6s" itemscope="http://schema.org/LocalBusiness">
                         <div class="list-group">
-                            <a class="list-group-item active"> STORE HOURS</a>
-                            <a class="list-group-item">Monday-Saturday: 10:00am-6:00pm</a>
-                            <a class="list-group-item">Sunday: CLOSED</a>
-                            <a class="list-group-item" href="http://www.bangbangguns.com">CLICK HERE for 24/7 for Online Orders</a>
+                            <a class="list-group-item active" itemprop="openingHours"> STORE HOURS</a>
+                            <a class="list-group-item" itemprop="openingHours">Monday-Saturday: 10:00am-6:00pm</a>
+                            <a class="list-group-item" itemprop="openingHours">Sunday: CLOSED</a>
+                            <a class="list-group-item" href="http://www.bangbangguns.com" itemscope="http://schema.org/Order">CLICK HERE for 24/7 for Online Orders</a>
                         </div>
                     </div>
-                    <div class="widget-wrapper wow fadeIn" data-wow-delay="0.6s">
+                    <div class="widget-wrapper wow fadeIn" data-wow-delay="0.6s" itemscope="http://schema.org/LocalBusiness">
                         <div class="list-group">
-                            <a class="list-group-item active">OUR LOCATION</a>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13036.446983244387!2d-89.5058293!3d35.2285882!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ad49ddefa057a6e!2sBang+Bang+Guns!5e0!3m2!1sen!2sus!4v1491520264572" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <a class="list-group-item active" itemprop="location">OUR LOCATION</a>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13036.446983244387!2d-89.5058293!3d35.2285882!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ad49ddefa057a6e!2sBang+Bang+Guns!5e0!3m2!1sen!2sus!4v1491520264572" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen itemprop="location"></iframe>
                         </div>
                     </div> 
 
@@ -284,8 +297,8 @@
                                     <!--First slide-->
                                     <div class="carousel-item active">
                                         <img src="images/ammo.jpg" alt="First slide">
-                                        <div class="carousel-caption">
-                                            <h4>Ammunition</h4>
+                                        <div class="carousel-caption" itemscope="http://schema.org/Product">
+                                            <h4 itemprop="name">Ammunition</h4>
                                             <br>
                                         </div>
                                     </div>
@@ -293,8 +306,8 @@
                                     <!--Second slide-->
                                     <div class="carousel-item">
                                         <img src="images/handgun.jpg" alt="Second slide">
-                                        <div class="carousel-caption">
-                                            <h4>Handguns</h4>
+                                        <div class="carousel-caption" itemscope="http://schema.org/Product">
+                                            <h4 itemprop="name">Handguns</h4>
                                             <br>
                                         </div>
                                     </div>
@@ -302,8 +315,8 @@
                                     <!--Third slide-->
                                     <div class="carousel-item">
                                         <img src="images/rifle.jpg" alt="Third slide">
-                                        <div class="carousel-caption">
-                                            <h4>Rifles</h4>
+                                        <div class="carousel-caption" itemscope="http://schema.org/Product">
+                                            <h4 itemprop="name">Rifles</h4>
                                             <br>
                                         </div>
                                     </div>
@@ -337,8 +350,8 @@
                             <div class="card  wow fadeIn" data-wow-delay="0.2s">
 
                                 <!--Card image-->
-                                <div class="view overlay hm-white-slight">
-                                    <img src="images/rifle.jpg" class="img-fluid" alt="">
+                                <div class="view overlay hm-white-slight" itemscope="http://schema.org/Product">
+                                    <img src="images/windham.jpg" class="img-fluid" alt="" itemprop="name">
                                     <a href="#">
                                         <div class="mask"></div>
                                     </a>
@@ -346,11 +359,11 @@
                                 <!--/.Card image-->
 
                                 <!--Card content-->
-                                <div class="card-block">
+                                <div class="card-block" itemscope="http://schema.org/Product">
                                     <!--Title-->
-                                    <h4 class="card-title">Rifles</h4>
+                                    <h5 class="card-title" itemprop="name">Windham Weaponry SRC SA 223 Rem/5.56 NATO </h5>
                                     <!--Text-->
-                                    <p class="card-text">Check out our selection of rifles.</p>
+                                    <p class="card-text" itemprop="description">$812.33</p>
                                     <a href="#" class="btn btn-default">See More...</a>
                                 </div>
                                 <!--/.Card content-->
@@ -366,8 +379,8 @@
                             <div class="card  wow fadeIn" data-wow-delay="0.4s">
 
                                 <!--Card image-->
-                                <div class="view overlay hm-white-slight">
-                                    <img src="images/handgun.jpg" class="img-fluid" alt="">
+                                <div class="view overlay hm-white-slight" itemscope="http://schema.org/Product">
+                                    <img src="images/ruger.jpg" class="img-fluid" alt="">
                                     <a href="#">
                                         <div class="mask"></div>
                                     </a>
@@ -375,11 +388,11 @@
                                 <!--/.Card image-->
 
                                 <!--Card content-->
-                                <div class="card-block">
+                                <div class="card-block" itemscope="http://schema.org/Product">
                                     <!--Title-->
-                                    <h4 class="card-title">Handguns</h4>
+                                    <h5 class="card-title" itemprop="name">Ruger LCP .380 ACP 2.75" Blue 6rd</h5>
                                     <!--Text-->
-                                    <p class="card-text">See our selection of handguns.</p>
+                                    <p class="card-text" itemprop="description">Contact for $</p>
                                     <a href="#" class="btn btn-default">See More...</a>
                                 </div>
                                 <!--/.Card content-->
@@ -395,8 +408,8 @@
                             <div class="card  wow fadeIn" data-wow-delay="0.6s">
 
                                 <!--Card image-->
-                                <div class="view overlay hm-white-slight">
-                                    <img src="images/ammo.jpg" class="img-fluid" alt="">
+                                <div class="view overlay hm-white-slight" itemscope="http://schema.org/Product">
+                                    <img src="images/wolfammo.jpg" class="img-fluid" alt="">
                                     <a href="#">
                                         <div class="mask"></div>
                                     </a>
@@ -404,11 +417,11 @@
                                 <!--/.Card image-->
 
                                 <!--Card content-->
-                                <div class="card-block">
+                                <div class="card-block" itemscope="http://schema.org/Product">
                                     <!--Title-->
-                                    <h4 class="card-title">Ammunition</h4>
+                                    <h5 class="card-title" itemprop="name">Wolf 22XTRA 22 LONG RIFLE MATCH RIMFIRE 22 </h5>
                                     <!--Text-->
-                                    <p class="card-text">Top shelf ammo for all your guns. </p>
+                                    <p class="card-text" itemprop="description">$976.25</p>
                                     <a href="#" class="btn btn-default">See More...</a>
                                 </div>
                                 <!--/.Card content-->
@@ -428,11 +441,11 @@
             <div class="row">
              <div class="col-lg-3">
                             <!--Card-->
-                            <div class="card  wow fadeIn" data-wow-delay="0.4s">
+                            <div class="card  wow fadeIn cardholder" data-wow-delay="0.4s">
 
                                 <!--Card image-->
                                 <div class="view overlay hm-white-slight">
-                                    <img src="images/rifle.jpg" class="img-fluid" alt="">
+                                    <img src="images/shotty.jpg" class="img-fluid" alt="">
                                     <a href="#">
                                         <div class="mask"></div>
                                     </a>
@@ -440,11 +453,11 @@
                                 <!--/.Card image-->
 
                                 <!--Card content-->
-                                <div class="card-block">
+                                <div class="card-block" itemscope="http://schema.org/Product">
                                     <!--Title-->
-                                    <h4 class="card-title">Shotguns</h4>
+                                    <h5 class="card-title" itemprop="name">Remington 870 Pump 12 Gauge 3" 6+1 18.5" </h5>
                                     <!--Text-->
-                                    <p class="card-text">Check out our selection of shotguns.</p>
+                                    <p class="card-text" itemprop="description">$478.22</p>
                                     <a href="#" class="btn btn-default">See More...</a>
                                 </div>
                                 <!--/.Card content-->
@@ -454,11 +467,11 @@
                         </div>
                          <div class="col-lg-3">
                             <!--Card-->
-                            <div class="card  wow fadeIn" data-wow-delay="0.2s">
+                            <div class="card  wow fadeIn cardholder" data-wow-delay="0.2s">
 
                                 <!--Card image-->
                                 <div class="view overlay hm-white-slight">
-                                    <img src="images/rifle.jpg" class="img-fluid" alt="">
+                                    <img src="images/usmcknife.jpg" class="img-fluid" alt="">
                                     <a href="#">
                                         <div class="mask"></div>
                                     </a>
@@ -466,11 +479,11 @@
                                 <!--/.Card image-->
 
                                 <!--Card content-->
-                                <div class="card-block">
+                                <div class="card-block" itemscope="http://schema.org/Product">
                                     <!--Title-->
-                                    <h4 class="card-title">Knives</h4>
+                                    <h5 class="card-title" itemprop="name">Ka-Bar 1217 USMC Fixed Blade w/Sheath</h5>
                                     <!--Text-->
-                                    <p class="card-text">Check out our selection of knives.</p>
+                                    <p class="card-text" itemprop="description">$79.29</p>
                                     <a href="#" class="btn btn-default">See More...</a>
                                 </div>
                                 <!--/.Card content-->
@@ -480,11 +493,11 @@
                         </div>
                          <div class="col-lg-3">
                             <!--Card-->
-                            <div class="card  wow fadeIn" data-wow-delay="0.4s">
+                            <div class="card  wow fadeIn cardholder" data-wow-delay="0.4s">
 
                                 <!--Card image-->
                                 <div class="view overlay hm-white-slight">
-                                    <img src="images/rifle.jpg" class="img-fluid" alt="">
+                                    <img src="images/thermosight.jpg" class="img-fluid" alt="">
                                     <a href="#">
                                         <div class="mask"></div>
                                     </a>
@@ -492,11 +505,11 @@
                                 <!--/.Card image-->
 
                                 <!--Card content-->
-                                <div class="card-block">
+                                <div class="card-block" itemscope="http://schema.org/Product">
                                     <!--Title-->
-                                    <h4 class="card-title">Optics</h4>
+                                    <h5 class="card-title" itemprop="name">FLIR RS32 THERMOSIGHT 2.25-9X</h5>
                                     <!--Text-->
-                                    <p class="card-text">Check out our selection of optics.</p>
+                                    <p class="card-text" itemprop="description">$3,883.85</p>
                                     <a href="#" class="btn btn-default">See More...</a>
                                 </div>
                                 <!--/.Card content-->
@@ -506,11 +519,11 @@
                         </div>
                          <div class="col-lg-3">
                             <!--Card-->
-                            <div class="card  wow fadeIn" data-wow-delay="0.2s">
+                            <div class="card  wow fadeIn cardholder" data-wow-delay="0.2s">
 
                                 <!--Card image-->
                                 <div class="view overlay hm-white-slight">
-                                    <img src="images/rifle.jpg" class="img-fluid" alt="">
+                                    <img src="images/holster.jpg" class="img-fluid" alt="">
                                     <a href="#">
                                         <div class="mask"></div>
                                     </a>
@@ -518,11 +531,11 @@
                                 <!--/.Card image-->
 
                                 <!--Card content-->
-                                <div class="card-block">
+                                <div class="card-block" itemscope="http://schema.org/Product">
                                     <!--Title-->
-                                    <h4 class="card-title">Parts and Gear</h4>
+                                    <h5 class="card-title" itemprop="name">Safariland Quick-Kit 1-2 Quick Release Kit Black</h5>
                                     <!--Text-->
-                                    <p class="card-text">Check out our selection of Parts and Gear.</p>
+                                    <p class="card-text" itemprop="price">$30</p>
                                     <a href="#" class="btn btn-default">See More...</a>
                                 </div>
                                 <!--/.Card content-->
@@ -534,11 +547,16 @@
         </div>
         <!--/.Main layout-->
         <div class="brands row">
-            <div class="col-md-8 offset-lg-2">
-            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+            <div class="col-md-8 offset-lg-2" itemscope="http://schema.org/LocalBusiness">
+            <p itemprop="description">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
             </div>
-            <div class="col-md-11 offset-lg-2">
-            <h2 id="manufacturer">BRAND NAME BUYER? SHOP BY MANUFACTURER <a href="http://www.bangbangguns.com/manufacturers.php"> HERE</a></h2>
+            <div class="col-md-8 offset-lg-3">
+                <div class="col-md-12">
+                    <div class="col-md-8 offset-lg-1">
+                        <h2>BRAND NAME BUYER?</h2> 
+                    </div>
+                    <h2 id="manufacturer">SHOP BY MANUFACTURER <a href="http://www.bangbangguns.com/manufacturers.php"> HERE</a></h2>
+                </div>
             </div>
         </div>
     </main>
@@ -550,24 +568,26 @@
     <div class="container-fluid">
         <div class="row">
             <!--First column-->
-            <div class="col-md-8 offset-lg-3 hidden-lg-down">
+            <div class="col-md-9 offset-lg-2">
+            <div class="col-md-12  hidden-lg-down">
                 <h2 class="title">Thank you for visiting Bang Bang Guns!</h2>
+            </div>
             </div>
         </div>
             <hr>
             <div class="col-md-10 offset-lg-2">
                 <div class="row">
-                    <div class="col-md-2 offset-lg-1">
-                        <p><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> 7740 Hwy 64 | Oakland, TN<br> 38060</p>
+                    <div class="col-md-2 offset-lg-1" itemscope="http://schema.org/LocalBusiness">
+                        <p itemprop="location"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> 7740 Hwy 64 | Oakland, TN<br> 38060</p>
                     </div>
-                    <div class="col-md-2">
-                        <p><i class="fa fa-phone fa-lg" aria-hidden="true"></i> (901) 813-8526 </p>
+                    <div class="col-md-2" itemscope="http://schema.org/LocalBusiness">
+                        <p itemprop="telephone"><i class="fa fa-phone fa-lg" aria-hidden="true"></i> (901) 813-8526 </p>
                     </div>
-                    <div class="col-md-2">
-                        <p><i class="fa fa-fax fa-lg" aria-hidden="true"></i> (901) 813-8526 </p>
+                    <div class="col-md-2" itemscope="http://schema.org/LocalBusiness">
+                        <p itemprop="faxNumber"><i class="fa fa-fax fa-lg" aria-hidden="true"></i> (901) 813-8526 </p>
                     </div>
-                    <div class="col-md-2">
-                        <p><i class="fa fa-envelope fa-lg" aria-hidden="true"></i><a href="http://bangbangguns.com/contact.php"> For Faster Service - Email!</a></p>
+                    <div class="col-md-2" itemscope="http://schema.org/LocalBusiness">
+                        <p itemprop="email"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i><a href="http://bangbangguns.com/contact.php"> For Faster Service - Email!</a></p>
                     </div>
                 </div>
             </div>

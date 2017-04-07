@@ -29,6 +29,9 @@ background-color: #fea526!important;
 	padding: 1rem;
 }
 
+#designer{
+	font-family: Diplomata SC, sans-serif!important;
+}
 #designer:hover{
 	color: #fea526;
 }
@@ -64,3 +67,12 @@ i{
 	background-color: #1D1E23;
 	color: white;
 }
+.view img{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+/*.cardholder{
+	height: 350px!important;
+}*/
