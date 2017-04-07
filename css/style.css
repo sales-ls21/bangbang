@@ -11,6 +11,9 @@
 .list-group-item:not(.active):hover {
     color:#fea526;
 }
+.btn-group{
+	background-color: #fff;
+}
 
 .btn, .btn-default:hover{
 background-color: #fea526!important;
@@ -18,11 +21,23 @@ background-color: #fea526!important;
 
 .brands{
 	height: auto;
-	background-color: #fea526!important;
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-color: white!important;*/
 	margin-top: 1rem;
 	padding: 1rem;
 }
 
 #designer:hover{
+	color: #fea526;
+}
+
+span{
+	font-weight:800!important;
+	color: #fea526!important;
+}
+
+#manufacturer{
 	color: #fea526;
 }
