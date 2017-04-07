@@ -59,3 +59,8 @@ i{
 .carousel-ctrl-next-icon{
 	color: #fea526!important;
 }
+.card-block{
+	text-align: center;
+	background-color: #1D1E23;
+	color: white;
+}
