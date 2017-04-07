@@ -33,11 +33,29 @@ background-color: #fea526!important;
 	color: #fea526;
 }
 
-span{
+#bolded{
 	font-weight:800!important;
 	color: #fea526!important;
 }
 
 #manufacturer{
 	color: #fea526;
+}
+
+#feature{
+	text-align: center;
+}
+#thin{
+	font-weight: normal!important;
+	font-style: italic!important;
+}
+i{
+	color:#fea526;
+}
+.carousel-item img{
+	width: 100%;
+}
+
+.carousel-ctrl-next-icon{
+	color: #fea526!important;
 }
