@@ -73,6 +73,9 @@ i{
 	text-align: center;
 }
 
+#here, #here:hover{
+	color: #fea526;
+}
 /*.cardholder{
 	height: 350px!important;
 }*/
