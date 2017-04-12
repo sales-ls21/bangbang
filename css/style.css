@@ -1,7 +1,11 @@
 /* YOUR CUSTOM STYLES */
+
+.hidden{
+	display: none;
+}
 .list-group-item.active {
-    background-color: #fea526;
-    border-color:#fea526
+    background-color: #ff2400;
+    border-color:#ff2400
 }
 
 .list-group-item:not(.active) {
@@ -9,14 +13,14 @@
 }
 
 .list-group-item:not(.active):hover {
-    color:#fea526;
+    color:#ff2400;
 }
 .btn-group{
 	background-color: #fff;
 }
 
 .btn, .btn-default:hover{
-background-color: #fea526!important;
+background-color: #ff2400!important;
 }
 
 .brands{
@@ -29,20 +33,25 @@ background-color: #fea526!important;
 	padding: 1rem;
 }
 
+.descrip{
+	font-family: Lato, sans-serif;
+	font-size: 1.2rem;
+}
+
 #designer{
 	font-family: Diplomata SC, sans-serif!important;
 }
 #designer:hover{
-	color: #fea526;
+	color: #ff2400;
 }
 
-#bolded{
-	font-weight:800!important;
-	color: #fea526!important;
+.bolded{
+	font-weight:900!important;
+	color: #ff2400!important;
 }
 
 #manufacturer{
-	color: #fea526;
+	color: #ff2400;
 }
 
 #feature{
@@ -53,14 +62,14 @@ background-color: #fea526!important;
 	font-style: italic!important;
 }
 i{
-	color:#fea526;
+	color:#ff2400;
 }
 .carousel-item img{
 	width: 100%;
 }
 
 .carousel-ctrl-next-icon{
-	color: #fea526!important;
+	color: #ff2400!important;
 }
 .card-block{
 	text-align: center;
@@ -74,8 +83,13 @@ i{
 }
 
 #here, #here:hover{
-	color: #fea526;
+	color: #ff2400;
 }
 /*.cardholder{
 	height: 350px!important;
 }*/
+
+.banner{
+	width: 100%;
+	height: 450px;
+}
