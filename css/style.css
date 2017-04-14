@@ -66,7 +66,14 @@ i{
 }
 .carousel-item img{
 	width: 100%;
+	height: 500px;
 }
+
+/*.carousel-caption h4{
+	font-size: 2rem;
+	font-weight: 900;
+	color: #ff2400;
+}*/
 
 .carousel-ctrl-next-icon{
 	color: #ff2400!important;
@@ -78,7 +85,7 @@ i{
 }
 .view img{
 	width: 100%;
-	height: 150px;
+	height: 170px;
 	text-align: center;
 }
 
