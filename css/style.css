@@ -10,8 +10,8 @@ nav a{
 	margin: 0 auto;
 }
 #logotitle h1{
-	margin-top: 75px;
-	margin-left: 70px;
+	margin-top: 10%;
+	margin-left: 10%;
 	color: #ff2400;
 	font-size: 3rem;
 	font-weight: 900;
@@ -19,28 +19,28 @@ nav a{
 
 #logotitle h2{
 	color: white;
-	margin-left: 35px;
+	margin-left: 5%;
 }
 
 .tagline h2{
-	margin-left: -20px;
+	margin-left: -5%;
 }
 #container {
-	width: 2000px;
+	width: 200%;
 	overflow: hidden;
-	margin: 50px auto;
+	margin: 5% auto;
 	background: white;
 }
 
 .photobanner {
-	height: 200px;
-	width: 3550px;
+	height: 5%;
+	width: 350%;
 	margin-bottom: 80px;
 }
 
 .photobanner img{
-	width: 350px;
-	height: 233px;
+	width: 3%;
+	height: 5%;
 }
 
 .first {
@@ -206,5 +206,6 @@ i{
 	height: 450px;
 }
 .transfer{
-	padding-top: 20px;
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
