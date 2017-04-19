@@ -44,11 +44,11 @@ nav a{
 }
 
 .first {
-	-webkit-animation: bannermove 30s linear infinite;
-	   -moz-animation: bannermove 30s linear infinite;
-	    -ms-animation: bannermove 30s linear infinite;
-	     -o-animation: bannermove 30s linear infinite;
-	        animation: bannermove 30s linear infinite;
+	-webkit-animation: bannermove 15s linear infinite;
+	   -moz-animation: bannermove 15s linear infinite;
+	    -ms-animation: bannermove 15s linear infinite;
+	     -o-animation: bannermove 15s linear infinite;
+	        animation: bannermove 15s linear infinite;
 }
  
 @keyframes "bannermove" {
@@ -56,7 +56,7 @@ nav a{
     margin-left: 0px;
  }
  100% {
-    margin-left: -2125px;
+    margin-left: -1000px;
  }
  
 }
@@ -66,7 +66,7 @@ nav a{
    margin-left: 0px;
  }
  100% {
-   margin-left: -2125px;
+   margin-left: -1000px;
  }
  
 }
@@ -76,7 +76,7 @@ nav a{
    margin-left: 0px;
  }
  100% {
-   margin-left: -2125px;
+   margin-left: -1000px;
  }
  
 }
@@ -86,7 +86,7 @@ nav a{
    margin-left: 0px;
  }
  100% {
-   margin-left: -2125px;
+   margin-left: -1000px;
  }
  
 }
@@ -96,7 +96,7 @@ nav a{
    margin-left: 0px;
  }
  100% {
-   margin-left: -2125px;
+   margin-left: -1000px;
  }
  
 }
